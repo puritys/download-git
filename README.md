@@ -1,12 +1,14 @@
 Download .git
 =============
 
-## Download a whole .git
+* npm install download-git
+
+Download a whole .git
 <pre>
     downloadGit http://xxx.com.tw/.git
 </pre>
 
-## download one git object id
+download one git object id
 <pre>
     downloadGit http://xxx.com.tw/.git a4bbcd16a46d691e5053e50387258b7b8e918601
 </pre>

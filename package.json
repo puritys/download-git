@@ -1,0 +1,25 @@
+{
+  "name": "download-git",
+  "version": "1.0.0",
+  "description": "To download .git directory from victim's website.",
+  "main": "index.js",
+  "bin": {
+    "downloadGit": "src/exec.js",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    ".git",
+    "repo",
+    "download"
+  ],
+  "author": "puritys",
+  "license": "MIT",
+  "dependencies": {
+    "js-logger": "^1.3.0",
+    "light-http": "^1.4.2",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1"
+  }
+}
