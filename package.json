@@ -4,7 +4,7 @@
   "description": "To download .git directory from victim's website.",
   "main": "index.js",
   "bin": {
-    "downloadGit": "src/exec.js",
+    "downloadGit": "src/exec.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
